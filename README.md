@@ -5,6 +5,7 @@ git clone https://github.com/Sab8rz/Artist-Catalog.git
 
 ### Создайте и активируйте виртуальное окружение:
 python -m venv venv
+
 .\venv\Scripts\activate
 
 ### Установите зависимости
@@ -15,7 +16,9 @@ cd artistcatalog
 
 ### Выполните миграции и создайте суперпользователя:
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py createsuperuser
 
 ### Запустите сервер
