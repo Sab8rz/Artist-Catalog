@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'artist.apps.ArtistConfig',
     'rest_framework',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
