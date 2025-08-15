@@ -24,6 +24,7 @@ python manage.py createsuperuser
 ### Запустите сервер
 python manage.py runserver
 
+
 #### Доступные адреса:
 http://127.0.0.1:8000/swagger/
 
